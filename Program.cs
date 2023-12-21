@@ -36,13 +36,27 @@
 // 4 => -4, -3, -2, -1, 0, 1, 2, 3, 4
 // 2 => -2, -1, 0, 1, 2
 
-Console.Write("Введите число N: ");
-int N = Convert.ToInt32(Console.ReadLine());
-// N = 4, 
-int negativeN = N * -1; // -4
+// Console.Write("Введите число N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// // N = 4, 
+// if (N < 0) // -5 * (-1) = 5
+// {
+//     Console.WriteLine("Введено отр. число N");
+//     N = N * -1;
+// }
+// int negativeN = N * -1; // -4
 
-while (negativeN <= N) // -3 -2 -1 0 1 2 3 
-{
-    Console.Write(negativeN + " ");
-    negativeN++; // negativeN++ (negativeN = negativeN + 1)
-}
+// while (negativeN <= N) // -3 -2 -1 0 1 2 3 
+// {
+//     Console.Write(negativeN + " ");
+//     negativeN++; // negativeN++ (negativeN = negativeN + 1)
+// }
+
+// a = a + 1 и a++(инкремент)
+// a = a - 1 и a--(декремент)
+
+// while (true) // true == true
+// {
+//     System.Console.WriteLine("1");
+// }
+
